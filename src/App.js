@@ -54,7 +54,7 @@ function App() {
             <Route exact path="/about" element={<About />} />
   </Routes>*/}
          {/* <Routes>*/}
-           {/*} <Route exact
+           {/*} <Route exact 
               path="/"
 element={*/}
                 <TextForm
@@ -62,6 +62,7 @@ element={*/}
                   heading="Enter the text to analyze below"
                   mode={mode}
                 />
+                {/*<About/>*/}
              {/*</Routes> }
             />
          
