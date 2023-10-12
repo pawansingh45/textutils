@@ -2,7 +2,7 @@ import "./App.css";
 
 import Navbar from "./Navbar";
 import TextForm from "./TextForm";
-//import About from "./About";
+import About from "./About";
 import React, { useState } from "react";
 import Alert from "./Alert";
 
@@ -62,7 +62,7 @@ element={*/}
                   heading="Enter the text to analyze below"
                   mode={mode}
                 />
-                {/*<About/>*/}
+                <About mode={mode}/>
              {/*</Routes> }
             />
          

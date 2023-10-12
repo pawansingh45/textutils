@@ -29,11 +29,11 @@ export default function Navbar(props) {
                 Home
               </a>
             </li>
-            {/*<li className="nav-item">
-              <Link className="nav-link active" to="/about">
+            <li className="nav-item">
+              <a className="nav-link active" href="/about">
                 {props.aboutText}
-  </Link>
-  </li>*/}
+  </a>
+  </li>
           </ul>
 
           {/* Enable Dark Mode */}
